@@ -8,134 +8,107 @@
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav>
-        <div class="logo">NEXA X1</div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#specs">Specs</a></li>
-            <li><a href="#reviews">Reviews</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <h1 class="logo">NEXA X1</h1>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#specs">Specs</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+
         <div class="hero-text">
-            <h1>Experience the Future</h1>
-            <p>NEXA X1 Smartphone with 108MP Camera and 6000mAh Battery.</p>
-            <button>Buy Now</button>
+            <h2>Experience the Future</h2>
+
+            <p>
+                NEXA X1 Smartphone with 108MP Camera,
+                6000mAh Battery and Stunning Display.
+            </p>
+
+            <button onclick="buyNow()">Buy Now</button>
         </div>
 
         <div class="hero-image">
             <img src="phone.png" alt="Smartphone">
         </div>
+
     </section>
 
-    <!-- Features -->
-    <section id="features">
-        <h2>Features</h2>
+    <section class="features" id="features">
+
+        <h2>Key Features</h2>
 
         <div class="feature-container">
 
-            <div class="card">
+            <div class="feature-box">
                 <img src="camera.png" alt="Camera">
                 <h3>108MP Camera</h3>
                 <p>Capture every detail with ultra-clear photography.</p>
             </div>
 
-            <div class="card">
+            <div class="feature-box">
                 <img src="battery.png" alt="Battery">
                 <h3>6000mAh Battery</h3>
-                <p>Power that lasts all day and beyond.</p>
+                <p>Power that lasts all day without interruption.</p>
             </div>
 
-            <div class="card">
+            <div class="feature-box">
                 <img src="display.png" alt="Display">
-                <h3>120Hz Display</h3>
-                <p>Smooth scrolling and immersive visuals.</p>
+                <h3>120Hz AMOLED Display</h3>
+                <p>Enjoy smooth visuals and vibrant colors.</p>
             </div>
 
         </div>
+
     </section>
 
-    <!-- Specifications -->
-    <section id="specs">
+    <section class="specs" id="specs">
         <h2>Specifications</h2>
 
-        <table>
-            <tr>
-                <th>Feature</th>
-                <th>Details</th>
-            </tr>
-
-            <tr>
-                <td>Display</td>
-                <td>6.7" AMOLED</td>
-            </tr>
-
-            <tr>
-                <td>Processor</td>
-                <td>Snapdragon 8 Gen</td>
-            </tr>
-
-            <tr>
-                <td>RAM</td>
-                <td>8GB</td>
-            </tr>
-
-            <tr>
-                <td>Storage</td>
-                <td>256GB</td>
-            </tr>
-
-            <tr>
-                <td>Battery</td>
-                <td>6000mAh</td>
-            </tr>
-
-            <tr>
-                <td>Camera</td>
-                <td>108MP + 12MP</td>
-            </tr>
-        </table>
+        <div class="spec-box">
+            <p>Processor: Snapdragon 8 Gen Series</p>
+            <p>RAM: 12GB</p>
+            <p>Storage: 256GB</p>
+            <p>Battery: 6000mAh</p>
+            <p>Camera: 108MP + 12MP + 8MP</p>
+        </div>
     </section>
 
-    <!-- Reviews -->
-    <section id="reviews">
+    <section class="reviews" id="reviews">
+
         <h2>Customer Reviews</h2>
 
         <div class="review">
             ⭐⭐⭐⭐⭐
-            <p>Amazing camera quality and premium design.</p>
+            <p>Amazing battery life and camera quality!</p>
         </div>
 
         <div class="review">
             ⭐⭐⭐⭐⭐
-            <p>Excellent battery backup and smooth performance.</p>
+            <p>Premium design with excellent performance.</p>
         </div>
+
     </section>
 
-    <!-- Contact -->
-    <section id="contact">
+    <section class="contact" id="contact">
+
         <h2>Contact Us</h2>
 
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message"></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+        <p>Email: support@nexax1.com</p>
+        <p>Phone: +91 98765 43210</p>
+
     </section>
 
-    <!-- Footer -->
     <footer>
-        <p>© 2026 NEXA X1 Smartphone. All Rights Reserved.</p>
+        <p>© 2026 NEXA X1. All Rights Reserved.</p>
     </footer>
-
-    <!-- Back To Top -->
-    <button id="topBtn">↑</button>
 
     <script src="script.js"></script>
 
